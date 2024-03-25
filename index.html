@@ -74,7 +74,7 @@
                   <!-- Dropdown -->
                   <div class="chi-form__item -mt--3">
                     <chi-label required for="issue-type">What issue is occurring?</chi-label>
-                    <chi-dropdown id="issue-type" position="bottom" button="Select">
+                    <chi-dropdown id="issue-type" position="bottom" button="Select" fluid>
                       <a class="chi-dropdown__menu-item" href="#" slot="menu">Line or Circuit Down</a>
                       <a class="chi-dropdown__menu-item" href="#" slot="menu">Line or Circuit Errors</a>
                       <a class="chi-dropdown__menu-item" href="#" slot="menu">Network Interface Down</a>
@@ -147,7 +147,7 @@
                     <div class="chi-col -w--12 -w-lg--6">
                       <!-- Search Dropdown -->
                       <chi-label class="-mt--3" for="time-zone">When did the problem start?</chi-label>
-                      <chi-dropdown class="-fluid" id="time-zone" button="Time Zone" visible-items="5">
+                      <chi-dropdown id="time-zone" button="Time Zone" visible-items="5" fluid>
                         <chi-search-input size="sm" placeholder="Search" slot="menu-header"></chi-search-input>
                         <a class="chi-dropdown__menu-item" href="#" slot="menu">Item 1</a>
                         <a class="chi-dropdown__menu-item" href="#" slot="menu">Item 2</a>
@@ -212,7 +212,7 @@
                     <div class="chi-col -w--12 -w-lg--6">
                       <!-- Dropdown -->
                       <div class="chi-form__item -mt--3">
-                        <chi-label required for="technician">Technician</chi-label>
+                        <chi-label required for="technician" fluid>Technician</chi-label>
                         <chi-dropdown id="technician" position="bottom" button="Select">
                           <a class="chi-dropdown__menu-item" href="#" slot="menu">John Doe</a>
                           <a class="chi-dropdown__menu-item" href="#" slot="menu">Elisabeth Rusell</a>
